@@ -1,6 +1,6 @@
 
 
-SAMPLING
+ABOUT FSSAMPLER
 
 
 Sample heißt Probe. Dieser Begriff wird in ganz unterschiedlichen Zusammenhängen verwendet: In der Statistik ist das Sample eine Stichprobe, in der Audiotechnologie bedeutet es die digitale Abtastung eines analogen Klanges. Und dann gibt es natürlich das musikalische Sampling, wo ein Klang aus seinem ursprünglichen Kontext herauslöst und damit verfügbar gemacht wird. Hier meint Sample ein (digital) gespeichertes Klangschnipsel, auf das beliebig zugegriffen werden kann.
@@ -45,7 +45,7 @@ Wer nun zu Decidophobie und darüber hinaus vielleicht noch zun Prokrastinieren n
 könnte es nicht eine noch kompaktere Kich-Drum geben?, eine dynamischere Melody? irgendwo auf der "Masters of Dixieland vol. 1-6" (Capitol Records Inc./ 1962 / California, USA/ LC 64077) muss eine passende Trompete zu finden sein.
 
 
-EPILOG
+METHODE
 
 
 Wir möchten versuchen dem Anwender ein Werkzeug an die Hand zu geben, dass ihn bei der Suche und der Auswahl von Samples unterstützt und ihm die Zeit gibt, sich intensiver auf den Prozess der Produktion und des Arrangements zu konzentrieren.
@@ -55,7 +55,14 @@ Aus der parametrisch getroffenen Auswahl wählt das System algorithmisch eine Aus
 
 
 
+AUSWAHL DES STOCKS / FREESOUND API
 
+
+Der Auswahl des Stocks steht die Annahme zugrunde, dass uns Sounds aus der gesammten bekannten Welt (Planet Erde) zur Verfügung stehen.
+Die Speicherung der zur Verfügung stehenden Sounds erfolgt mit Geo-TAGs (/// GEO TAG DEFINITION).
+Wir müssen uns nurnoch für eine Region, ein Land oder einen Kontinent entscheiden, der die Quelle für unseren STOCK stellen soll.
+Für eine genaue Bereichs-Definition der Quelle geben wir den Radius um eine Koordinate mit in die Auswahl ein.
+Aus dem so erschlossenen Gebiet (SOURCE) werden alle verfügbaren Informationen gesammelt, gelistet und durch filter auf eine Auswahl reduziert (STOCK). 
 
 
 
