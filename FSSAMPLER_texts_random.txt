@@ -1,0 +1,108 @@
+
+
+SAMPLING
+
+
+Sample heißt Probe. Dieser Begriff wird in ganz unterschiedlichen Zusammenhängen verwendet: In der Statistik ist das Sample eine Stichprobe, in der Audiotechnologie bedeutet es die digitale Abtastung eines analogen Klanges. Und dann gibt es natürlich das musikalische Sampling, wo ein Klang aus seinem ursprünglichen Kontext herauslöst und damit verfügbar gemacht wird. Hier meint Sample ein (digital) gespeichertes Klangschnipsel, auf das beliebig zugegriffen werden kann.
+In der vordigitalen Zeit beginnt das Sampling in den 40er Jahren nach dem Krieg in Frankreich, wo Pierre Schaeffer Naturklänge - sogenannte "konkrete" Klänge - aufgenommen und auf Schallplatten mit Endlosrillen gepresst hat. Die Klänge können der Umwelt entstammen, aber auch aus Musikstücken. Dies ist ein beliebtes Verfahren im HipHop, wo aus kurzen Groove-Fragmenten älterer Musik (wie Soul, Funk oder Jazz) Loops gebaut werden, die das rhythmische Skelett eines Raps bilden.
+
+Wichtig ist beim Sample auch seine Geschichte, die es transportiert, wodurch im Hörer bestimmte Emotionen hervorgerufen werden können. Deshalb ist es so beliebt, Samples aus konnotierter - also mit Bedeutung aufgeladener - Musik zu verwenden, da sie vom Hörer wiedererkannt werden und dadurch bestimmte Stimmungen auslösen können.
+
+Die freie Verfügbarkeit des Samples in der Musik beginnt eigentlich erst dort, wo es digital handhabbar wird.
+
+"Immer den gleichen Stein den immer gleichen Berg hinauf wälzen."
+Das ist ein Sample, das von Heiner Müller stammt. Ich habe es deswegen ausgewählt, weil es selbst schon ein Endlos-Schleife darstellt. Der Stein des Sisyphos, der immer wieder hinaufgerollt wird und immer wieder hinunter fällt.
+
+Die einfachste Manipulation des Samples besteht darin, dass man es verkehrt herum abspielt. Ein anderes beliebtes Verfahren ist die Transposition des Samples auf unterschiedlichen Tonhöhen. Dabei fällt auf, dass beim Heruntertransponieren das Sample langsamer wird und bei Herauftransponieren schneller.
+
+Nun gibt es aber auch interessante Methoden, Transposition und zeitliche Ausdehnung des Samples voneinander unabhängig zu machen. Durch Anwendung einer Technik, die sich Granularsynthese nennt, kann man man das Sample stretchen - also dehnen - ohne dass sich seine Tonhöhe ändert.
+
+In den 1980er wurden die ersten Sampler gebaut, eine Art Keyboard, mit den man Klänge aufnehmen und wieder abspielen konnte. Über eine Tastatur konnte man diese Samples hinsichtlich ihrer Tonhöhe und Lautstärke verändern. Man nimmt beispielsweise den Klang einer Bongo auf und legt dieses Sample sozusagen auf die Tasten des Keyboards. So könnte man mit dem Klang dieser Bongo etwa die "Goldberg-Variationen" spielen.
+
+
+/// Karlheinz Essl / ORF Musiklexikon // 2.Dec 2017 // http://www.essl.at/bibliogr/musiklexikon-sample.html
+
+
+
+
+Sampling eröffnet dem Anwender eine praktisch grenzenlose Auswahl an Geräuschen, die es zu arrangieren und zu verarbeiten gilt. Dies trifft natürlich nur die Getriebenen, die es sich zur Aufgabe machen, sich mittels dieser und verwandter techniken musikalisch auszudrücken.
+ 
+Dem Getriebenen stellt sich nun die Frage "welches sample nehm ich denn?"
+
+in den letzten 10 jahren (2010-2020) sind allein in deutschland rund 2,1 millionen LPs pro Jahr verkauft worden. Bei einer durchschnittlichen Abspieldauer von 45 minuten kommen hierbei 940,5 millionen Minuten Sound zusammen. macht 178,9 jahre Sound pro Jahr.
+
+/// https://de.statista.com/statistik/daten/studie/183564/umfrage/musikindustrie-absatz-von-tontraegern/  03.03.2020
+
+Daraus resultiert folgendes Problem - abzüglich der zu erwartenden Redundanz durch Kopien der selben Tonträger mag sich der ermittelte Wert vielleicht auf ein zehntel reduzieren - immernoch stellt das den Anwender vor die Aufgabe 18 Jahre Musik in nur einem Jahr auf brauchbare Fragmente hin zu untersuchen.
+
+Durch die Kommunikations- und Informations-Austauschmöglichkeiten die der freien Welt gegenwärtig zur Verfügung stehen (Stand: 03.03.2020), addieren sich zu dem errechneten Wert noch die LP/CD/MC/Streaming Produktionen der restlichen Welt, alle nicht-kommerziellen Produktionen und alle ausserhalb von Musikproduktion aufgenommenen und öffentlich zugänglichen Sounds hinzu.
+Darüber hinaus muss man sämtliche bis zum heutigen Zeitpunkt entstandenen Ton-Aufnahmen in die Auswahl mit einbeziehen.
+
+Der hieraus resultierende Wert lässt sich nicht mehr statistisch ermitteln, dürfte die durchschnittliche Lebenserwartung eines Menschen 
+(vgl.: Thomas Lampert, Lars Eric Kroll: Soziale Unterschiede in der Mortalität und Lebenserwartung RKI-GBE kompakt 5(2), Robert Koch-Institut, Berlin 10. März 2014) 
+aber um ein vielfaches überschreiten.
+Wer nun zu Decidophobie und darüber hinaus vielleicht noch zun Prokrastinieren neigt, wird sich jetzt schwer zun die richtige Entscheidung (das richtige Sample) zu treffen.
+könnte es nicht eine noch kompaktere Kich-Drum geben?, eine dynamischere Melody? irgendwo auf der "Masters of Dixieland vol. 1-6" (Capitol Records Inc./ 1962 / California, USA/ LC 64077) muss eine passende Trompete zu finden sein.
+
+
+EPILOG
+
+
+Wir möchten versuchen dem Anwender ein Werkzeug an die Hand zu geben, dass ihn bei der Suche und der Auswahl von Samples unterstützt und ihm die Zeit gibt, sich intensiver auf den Prozess der Produktion und des Arrangements zu konzentrieren.
+Durch das begrenzen der Bezugsquellen und der Menge an verfügbarem Material, wird der Prozess der musikalischen Verarbeitung des zugrundeliegenden Materials in den Vordergrund gestellt.
+Anstatt sich mit der Suche nach geeignetem Material aufzuhalten, reduziert der FSAMPLER die Auswahlmöglichkeiten auf zwei Parameter.
+Aus der parametrisch getroffenen Auswahl wählt das System algorithmisch eine Auswahl an verfügbaren Samples (STOCK) der für eine neue Komposition zur Verfügung steht.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
