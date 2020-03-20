@@ -7491,6 +7491,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="228.6" y="-119.38" size="1.778" layer="97">Concrete Jungle Analog Input v1.1</text>
+<text x="228.6" y="-124.46" size="1.778" layer="97">c Lennart Ulrich</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="48.26" y="73.66">

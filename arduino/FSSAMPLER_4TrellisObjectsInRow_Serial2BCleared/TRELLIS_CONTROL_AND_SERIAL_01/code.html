@@ -1,0 +1,186 @@
+<style id="lineNumbers">
+        pre.lineNumbers {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            display: block;
+            padding-left: 4em;
+            counter-reset: line;
+            width: 100%;
+            box-sizing: border-box;
+            /* border: 1px solid #eee; */
+        }
+
+        pre.lineNumbers>code {
+            display: inline;
+        }
+
+        pre.lineNumbers>code:before {
+            counter-increment: line;
+            content: counter(line);
+            display: inline-block;
+            /* border-right: 1px solid #ddd; */
+            padding: 0 1.5em 0 0;
+            margin-left: -3.7em;
+            width: 2.2em;
+            color: #555;
+            text-align: right;
+        }
+    </style>
+<style id="general">
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        i.subtitle {
+            color: #888;
+            margin-bottom: 1.5em;
+            display: block;
+        }
+
+        @media print {
+            code.pagebreak {
+                page-break-after: always;
+                display: block !important;
+            }
+
+            pre {
+                margin-bottom: 0 !important;
+            }
+        }
+    </style>
+
+
+
+<pre class="lineNumbers"><code><font color="#95a5a6">&#47;*************************************************** </font></code>
+<code><font color="#95a5a6">  This is a test example for the Adafruit Trellis w&#47;HT16K33</font></code>
+<code><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6">  Designed specifically to work with the Adafruit Trellis </font></code>
+<code><font color="#95a5a6">  ----&gt; </font><u><font color="#95a5a6">https:&#47;&#47;www.adafruit.com&#47;products&#47;1616</font></u><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6">  ----&gt; </font><u><font color="#95a5a6">https:&#47;&#47;www.adafruit.com&#47;products&#47;1611</font></u><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6">  These displays use I2C to communicate, 2 pins are required to  </font></code>
+<code><font color="#95a5a6">  interface</font></code>
+<code><font color="#95a5a6">  Adafruit invests time and resources providing this open source code, </font></code>
+<code><font color="#95a5a6">  please support Adafruit and open-source hardware by purchasing </font></code>
+<code><font color="#95a5a6">  products from Adafruit!</font></code>
+<code><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6">  Written by Limor Fried&#47;Ladyada for Adafruit Industries.  </font></code>
+<code><font color="#95a5a6">  MIT license, all text above must be included in any redistribution</font></code>
+<code><font color="#95a5a6"> ****************************************************&#47;</font></code>
+<code></code>
+<code><font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#d35400">Wire</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font></code>
+<code><font color="#5e6d03">#include</font> <font color="#005c5f">&#34;Adafruit_Trellis.h&#34;</font></code>
+<code></code>
+<code><font color="#95a5a6">&#47;*************************************************** </font></code>
+<code><font color="#95a5a6">  This example shows reading buttons and setting&#47;clearing buttons in a loop</font></code>
+<code><font color="#95a5a6">  &#34;momentary&#34; mode has the LED light up only when a button is pressed</font></code>
+<code><font color="#95a5a6">  &#34;latching&#34; mode lets you turn the LED on&#47;off when pressed</font></code>
+<code><font color="#95a5a6"></font></code>
+<code><font color="#95a5a6">  Up to 8 matrices can be used but this example will show 4 or 1</font></code>
+<code><font color="#95a5a6"> ****************************************************&#47;</font></code>
+<code></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">MOMENTARY</font> <font color="#000000">0</font></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">LATCHING</font> <font color="#000000">1</font></code>
+<code><font color="#434f54">&#47;&#47; set the mode here</font></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">MODE</font> <font color="#000000">LATCHING</font> </code>
+<code></code>
+<code></code>
+<code><font color="#000000">Adafruit_Trellis</font> <font color="#000000">matrix0</font> <font color="#434f54">=</font> <font color="#000000">Adafruit_Trellis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code><font color="#000000">Adafruit_Trellis</font> <font color="#000000">matrix1</font> <font color="#434f54">=</font> <font color="#000000">Adafruit_Trellis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code><font color="#000000">Adafruit_Trellis</font> <font color="#000000">matrix2</font> <font color="#434f54">=</font> <font color="#000000">Adafruit_Trellis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code><font color="#000000">Adafruit_Trellis</font> <font color="#000000">matrix3</font> <font color="#434f54">=</font> <font color="#000000">Adafruit_Trellis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code><font color="#434f54">&#47;&#47; you can add another 4, up to 8</font></code>
+<code></code>
+<code></code>
+<code><font color="#434f54">&#47;&#47; Just one</font></code>
+<code><font color="#434f54">&#47;&#47;Adafruit_TrellisSet trellis =  Adafruit_TrellisSet(&amp;matrix0);</font></code>
+<code><font color="#434f54">&#47;&#47; or use the below to select 4, up to 8 can be passed in</font></code>
+<code><font color="#000000">Adafruit_TrellisSet</font> <font color="#000000">trellis</font> <font color="#434f54">=</font>  <font color="#000000">Adafruit_TrellisSet</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">matrix0</font><font color="#434f54">,</font> <font color="#434f54">&amp;</font><font color="#000000">matrix1</font><font color="#434f54">,</font> <font color="#434f54">&amp;</font><font color="#000000">matrix2</font><font color="#434f54">,</font> <font color="#434f54">&amp;</font><font color="#000000">matrix3</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code></code>
+<code><font color="#434f54">&#47;&#47; set to however many you&#39;re working with here, up to 8</font></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">NUMTRELLIS</font> <font color="#000000">4</font></code>
+<code></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">numKeys</font> <font color="#000000">(</font><font color="#000000">NUMTRELLIS</font> <font color="#434f54">*</font> <font color="#000000">16</font><font color="#000000">)</font></code>
+<code></code>
+<code><font color="#434f54">&#47;&#47; Connect Trellis Vin to 5V and Ground to ground.</font></code>
+<code><font color="#434f54">&#47;&#47; Connect the INT wire to pin #A2 (can change later!)</font></code>
+<code><font color="#5e6d03">#define</font> <font color="#000000">INTPIN</font> <font color="#000000">A2</font></code>
+<code><font color="#434f54">&#47;&#47; Connect I2C SDA pin to your Arduino SDA line</font></code>
+<code><font color="#434f54">&#47;&#47; Connect I2C SCL pin to your Arduino SCL line</font></code>
+<code><font color="#434f54">&#47;&#47; All Trellises share the SDA, SCL and INT pin! </font></code>
+<code><font color="#434f54">&#47;&#47; Even 8 tiles use only 3 wires max</font></code>
+<code></code>
+<code></code>
+<code><font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>  <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code> <font color="#434f54">&#47;&#47; Serial.println(&#34;Trellis Demo&#34;);</font></code>
+<code></code>
+<code>  <font color="#434f54">&#47;&#47; INT pin requires a pullup</font></code>
+<code>  <font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">INTPIN</font><font color="#434f54">,</font> <font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>  <font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">INTPIN</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>  </code>
+<code>  <font color="#434f54">&#47;&#47; begin() with the addresses of each panel in order</font></code>
+<code>  <font color="#434f54">&#47;&#47; I find it easiest if the addresses are in order</font></code>
+<code>  <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">0x71</font><font color="#434f54">,</font><font color="#000000">0x72</font><font color="#434f54">,</font><font color="#000000">0x73</font><font color="#434f54">,</font><font color="#000000">0x74</font><font color="#000000">)</font><font color="#000000">;</font>  <font color="#434f54">&#47;&#47; only one</font></code>
+<code>  <font color="#434f54">&#47;&#47; trellis.begin(0x70, 0x71, 0x72, 0x73);  &#47;&#47; or four!</font></code>
+<code><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">setBrightness</font><font color="#000000">(</font><font color="#000000">0</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>  <font color="#434f54">&#47;&#47; light up all the LEDs in order</font></code>
+<code>  <font color="#5e6d03">for</font> <font color="#000000">(</font><font color="#00979c">uint8_t</font> <font color="#000000">i</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">&lt;</font><font color="#000000">numKeys</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">setLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">writeDisplay</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>    </code>
+<code>    <font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">50</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>  <font color="#000000">}</font></code>
+<code>  <font color="#434f54">&#47;&#47; then turn them off</font></code>
+<code>  <font color="#5e6d03">for</font> <font color="#000000">(</font><font color="#00979c">uint8_t</font> <font color="#000000">i</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">&lt;</font><font color="#000000">numKeys</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">clrLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">writeDisplay</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>    </code>
+<code>    <font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">50</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>  <font color="#000000">}</font></code>
+<code><font color="#000000">}</font></code>
+<code></code>
+<code></code>
+<code><font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>  <font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">30</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; 30ms delay is required, dont remove me!</font></code>
+<code>  </code>
+<code>  <font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">MODE</font> <font color="#434f54">==</font> <font color="#000000">MOMENTARY</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>    <font color="#434f54">&#47;&#47; If a button was just pressed or released...</font></code>
+<code>    <font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">readSwitches</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>      <font color="#434f54">&#47;&#47; go through every button</font></code>
+<code>      <font color="#5e6d03">for</font> <font color="#000000">(</font><font color="#00979c">uint8_t</font> <font color="#000000">i</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">&lt;</font><font color="#000000">numKeys</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>&#09;<font color="#434f54">&#47;&#47; if it was pressed, turn it on</font></code>
+<code>&#09;<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">justPressed</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>&#09;  <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#005c5f">&#34;v&#34;</font><font color="#000000">)</font><font color="#000000">;</font> <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;  <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">setLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;<font color="#000000">}</font> </code>
+<code>&#09;<font color="#434f54">&#47;&#47; if it was released, turn it off</font></code>
+<code>&#09;<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">justReleased</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>&#09;  <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#005c5f">&#34;^&#34;</font><font color="#000000">)</font><font color="#000000">;</font> <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;  <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">clrLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;<font color="#000000">}</font></code>
+<code>      <font color="#000000">}</font></code>
+<code>      <font color="#434f54">&#47;&#47; tell the trellis to set the LEDs we requested</font></code>
+<code>      <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">writeDisplay</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>    <font color="#000000">}</font></code>
+<code>  <font color="#000000">}</font></code>
+<code></code>
+<code>  <font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">MODE</font> <font color="#434f54">==</font> <font color="#000000">LATCHING</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>    <font color="#434f54">&#47;&#47; If a button was just pressed or released...</font></code>
+<code>    <font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">readSwitches</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>      <font color="#434f54">&#47;&#47; go through every button</font></code>
+<code>      <font color="#5e6d03">for</font> <font color="#000000">(</font><font color="#00979c">uint8_t</font> <font color="#000000">i</font><font color="#434f54">=</font><font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">&lt;</font><font color="#000000">numKeys</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>        <font color="#434f54">&#47;&#47; if it was pressed...</font></code>
+<code>&#09;<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">justPressed</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">)</font> <font color="#000000">{</font></code>
+<code>&#09;  <font color="#95a5a6">&#47;*Serial.print(&#34;v&#34;);*&#47;</font> <b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">write</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;  <font color="#434f54">&#47;&#47; Alternate the LED</font></code>
+<code>&#09;  <font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">isLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">)</font></code>
+<code>&#09;    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">clrLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>&#09;  <font color="#5e6d03">else</font></code>
+<code>&#09;    <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">setLED</font><font color="#000000">(</font><font color="#000000">i</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>        <font color="#000000">}</font> </code>
+<code>      <font color="#000000">}</font></code>
+<code>      <font color="#434f54">&#47;&#47; tell the trellis to set the LEDs we requested</font></code>
+<code>      <font color="#000000">trellis</font><font color="#434f54">.</font><font color="#000000">writeDisplay</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font></code>
+<code>    <font color="#000000">}</font></code>
+<code>  <font color="#000000">}</font></code>
+<code><font color="#000000">}</font></code></pre></code>
+<code>            

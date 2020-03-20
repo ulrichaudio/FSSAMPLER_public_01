@@ -7385,33 +7385,33 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R2" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R3" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R4" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R5" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R6" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R7" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R8" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R9" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R10" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R11" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R12" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="R13" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
-<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S3" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S4" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S5" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S6" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S7" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S8" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S9" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S10" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S11" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S12" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S13" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
-<part name="S14" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="TEMPO_1" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="TEMPO_2" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="TEMPO_3" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="TEMPO_4" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="IN-POINT_1" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="IN-POINT_2" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="IN-POINT_3" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="IN-POINT_4" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="OUT-POINT_1" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="OUT-POINT_2" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="OUT-POINT_3" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="OUT-POINT_4" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="TEMPO_SEQUENCE" library="piher" library_urn="urn:adsk.eagle:library:324" deviceset="PC16S" device="" package3d_urn="urn:adsk.eagle:package:22243/1"/>
+<part name="LOOP_1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOOP_2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOOP_3" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOOP_4" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="PREHEAR_4" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOAD_4" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="PREHEAR_3" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOAD_3" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="PREHEAR_2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOAD_2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="PREHEAR_1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LOAD_1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="START/STOP" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
+<part name="LISTEN" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="55?" device="11" package3d_urn="urn:adsk.eagle:package:27758/1"/>
 <part name="IC1" library="arduino" deviceset="MEGAARDUINO_1" device="2"/>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1"/>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/12" package3d_urn="urn:adsk.eagle:package:23489/1"/>
@@ -7495,111 +7495,111 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="228.6" y="-124.46" size="1.778" layer="97">c Lennart Ulrich</text>
 </plain>
 <instances>
-<instance part="R1" gate="G$1" x="48.26" y="73.66">
+<instance part="TEMPO_1" gate="G$1" x="48.26" y="73.66">
 <attribute name="NAME" x="44.196" y="77.216" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="74.93" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="48.26" y="53.34">
+<instance part="TEMPO_2" gate="G$1" x="48.26" y="53.34">
 <attribute name="NAME" x="44.196" y="56.896" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="54.61" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="48.26" y="33.02">
+<instance part="TEMPO_3" gate="G$1" x="48.26" y="33.02">
 <attribute name="NAME" x="44.196" y="36.576" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="48.26" y="12.7">
+<instance part="TEMPO_4" gate="G$1" x="48.26" y="12.7">
 <attribute name="NAME" x="44.196" y="16.256" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.974" y="13.97" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="78.74" y="73.66">
+<instance part="IN-POINT_1" gate="G$1" x="78.74" y="73.66">
 <attribute name="NAME" x="74.676" y="77.216" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="74.93" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="78.74" y="53.34">
+<instance part="IN-POINT_2" gate="G$1" x="78.74" y="53.34">
 <attribute name="NAME" x="74.676" y="56.896" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="54.61" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="78.74" y="33.02">
+<instance part="IN-POINT_3" gate="G$1" x="78.74" y="33.02">
 <attribute name="NAME" x="74.676" y="36.576" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="78.74" y="12.7">
+<instance part="IN-POINT_4" gate="G$1" x="78.74" y="12.7">
 <attribute name="NAME" x="74.676" y="16.256" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="13.97" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="111.76" y="73.66">
+<instance part="OUT-POINT_1" gate="G$1" x="111.76" y="73.66">
 <attribute name="NAME" x="107.696" y="77.216" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="74.93" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="111.76" y="53.34">
+<instance part="OUT-POINT_2" gate="G$1" x="111.76" y="53.34">
 <attribute name="NAME" x="107.696" y="56.896" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="54.61" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="111.76" y="33.02">
+<instance part="OUT-POINT_3" gate="G$1" x="111.76" y="33.02">
 <attribute name="NAME" x="107.696" y="36.576" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="111.76" y="12.7">
+<instance part="OUT-POINT_4" gate="G$1" x="111.76" y="12.7">
 <attribute name="NAME" x="107.696" y="16.256" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.474" y="13.97" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="170.18" y="91.44">
+<instance part="TEMPO_SEQUENCE" gate="G$1" x="170.18" y="91.44">
 <attribute name="NAME" x="166.116" y="94.996" size="1.778" layer="95"/>
 <attribute name="VALUE" x="167.894" y="92.71" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="G$1" x="5.08" y="71.12">
+<instance part="LOOP_1" gate="G$1" x="5.08" y="71.12">
 <attribute name="NAME" x="2.032" y="75.946" size="1.778" layer="95"/>
 <attribute name="VALUE" x="1.27" y="65.532" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="5.08" y="50.8">
+<instance part="LOOP_2" gate="G$1" x="5.08" y="50.8">
 <attribute name="NAME" x="2.032" y="55.626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="1.27" y="45.212" size="1.778" layer="96"/>
 </instance>
-<instance part="S3" gate="G$1" x="5.08" y="30.48">
+<instance part="LOOP_3" gate="G$1" x="5.08" y="30.48">
 <attribute name="NAME" x="2.032" y="35.306" size="1.778" layer="95"/>
 <attribute name="VALUE" x="1.27" y="24.892" size="1.778" layer="96"/>
 </instance>
-<instance part="S4" gate="G$1" x="5.08" y="10.16">
+<instance part="LOOP_4" gate="G$1" x="5.08" y="10.16">
 <attribute name="NAME" x="2.032" y="14.986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="1.27" y="4.572" size="1.778" layer="96"/>
 </instance>
-<instance part="S5" gate="G$1" x="-25.4" y="10.16">
+<instance part="PREHEAR_4" gate="G$1" x="-25.4" y="10.16">
 <attribute name="NAME" x="-28.448" y="14.986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-29.21" y="4.572" size="1.778" layer="96"/>
 </instance>
-<instance part="S6" gate="G$1" x="-58.42" y="10.16">
+<instance part="LOAD_4" gate="G$1" x="-58.42" y="10.16">
 <attribute name="NAME" x="-61.468" y="14.986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="4.572" size="1.778" layer="96"/>
 </instance>
-<instance part="S7" gate="G$1" x="-25.4" y="30.48">
+<instance part="PREHEAR_3" gate="G$1" x="-25.4" y="30.48">
 <attribute name="NAME" x="-28.448" y="35.306" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-29.21" y="24.892" size="1.778" layer="96"/>
 </instance>
-<instance part="S8" gate="G$1" x="-58.42" y="30.48">
+<instance part="LOAD_3" gate="G$1" x="-58.42" y="30.48">
 <attribute name="NAME" x="-61.468" y="35.306" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="24.892" size="1.778" layer="96"/>
 </instance>
-<instance part="S9" gate="G$1" x="-25.4" y="50.8">
+<instance part="PREHEAR_2" gate="G$1" x="-25.4" y="50.8">
 <attribute name="NAME" x="-28.448" y="55.626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-29.21" y="45.212" size="1.778" layer="96"/>
 </instance>
-<instance part="S10" gate="G$1" x="-58.42" y="50.8">
+<instance part="LOAD_2" gate="G$1" x="-58.42" y="50.8">
 <attribute name="NAME" x="-61.468" y="55.626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="45.212" size="1.778" layer="96"/>
 </instance>
-<instance part="S11" gate="G$1" x="-25.4" y="71.12">
+<instance part="PREHEAR_1" gate="G$1" x="-25.4" y="71.12">
 <attribute name="NAME" x="-28.448" y="75.946" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-29.21" y="65.532" size="1.778" layer="96"/>
 </instance>
-<instance part="S12" gate="G$1" x="-58.42" y="71.12">
+<instance part="LOAD_1" gate="G$1" x="-58.42" y="71.12">
 <attribute name="NAME" x="-61.468" y="75.946" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-62.23" y="65.532" size="1.778" layer="96"/>
 </instance>
-<instance part="S13" gate="G$1" x="195.58" y="88.9">
+<instance part="START/STOP" gate="G$1" x="195.58" y="88.9">
 <attribute name="NAME" x="192.532" y="93.726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="191.77" y="83.312" size="1.778" layer="96"/>
 </instance>
-<instance part="S14" gate="G$1" x="147.32" y="88.9">
+<instance part="LISTEN" gate="G$1" x="147.32" y="88.9">
 <attribute name="NAME" x="144.272" y="93.726" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.51" y="83.312" size="1.778" layer="96"/>
 </instance>
@@ -7848,7 +7848,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1S"/>
+<pinref part="OUT-POINT_4" gate="G$1" pin="1S"/>
 <pinref part="IC1" gate="G$1" pin="(AD7)PA7"/>
 <wire x1="111.76" y1="7.62" x2="111.76" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-30.48" x2="167.64" y2="-30.48" width="0.1524" layer="91"/>
@@ -7856,7 +7856,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1S"/>
+<pinref part="IN-POINT_4" gate="G$1" pin="1S"/>
 <pinref part="IC1" gate="G$1" pin="(AD6)PA6"/>
 <wire x1="78.74" y1="7.62" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-33.02" x2="167.64" y2="-33.02" width="0.1524" layer="91"/>
@@ -7864,7 +7864,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1S"/>
+<pinref part="TEMPO_4" gate="G$1" pin="1S"/>
 <pinref part="IC1" gate="G$1" pin="(AD5)PA5"/>
 <wire x1="48.26" y1="7.62" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="-35.56" x2="167.64" y2="-35.56" width="0.1524" layer="91"/>
@@ -7876,13 +7876,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="167.64" y1="15.24" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="15.24" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1S"/>
+<pinref part="TEMPO_SEQUENCE" gate="G$1" pin="1S"/>
 <wire x1="170.18" y1="76.2" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1S"/>
+<pinref part="OUT-POINT_1" gate="G$1" pin="1S"/>
 <wire x1="111.76" y1="68.58" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="66.04" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
@@ -7892,7 +7892,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1S"/>
+<pinref part="IN-POINT_1" gate="G$1" pin="1S"/>
 <wire x1="78.74" y1="68.58" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
@@ -7902,7 +7902,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1S"/>
+<pinref part="TEMPO_1" gate="G$1" pin="1S"/>
 <wire x1="48.26" y1="68.58" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="60.96" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
@@ -7912,7 +7912,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1S"/>
+<pinref part="OUT-POINT_2" gate="G$1" pin="1S"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(A11)PC3"/>
@@ -7922,7 +7922,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1S"/>
+<pinref part="IN-POINT_2" gate="G$1" pin="1S"/>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="43.18" x2="147.32" y2="2.54" width="0.1524" layer="91"/>
@@ -7932,7 +7932,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1S"/>
+<pinref part="TEMPO_2" gate="G$1" pin="1S"/>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
@@ -7942,7 +7942,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1S"/>
+<pinref part="OUT-POINT_3" gate="G$1" pin="1S"/>
 <wire x1="111.76" y1="27.94" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(AD4)PA4"/>
@@ -7952,7 +7952,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1S"/>
+<pinref part="IN-POINT_3" gate="G$1" pin="1S"/>
 <wire x1="78.74" y1="27.94" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(AD3)PA3"/>
@@ -7962,7 +7962,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1S"/>
+<pinref part="TEMPO_3" gate="G$1" pin="1S"/>
 <wire x1="48.26" y1="27.94" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(AD2)PA2"/>
@@ -7972,7 +7972,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="NO"/>
+<pinref part="LOOP_4" gate="G$1" pin="NO"/>
 <wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="0" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="-76.2" width="0.1524" layer="91"/>
@@ -7990,7 +7990,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="233.68" y1="-12.7" x2="241.3" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-12.7" x2="241.3" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="-73.66" x2="15.24" y2="-73.66" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="NO"/>
+<pinref part="LOOP_3" gate="G$1" pin="NO"/>
 <wire x1="15.24" y1="-73.66" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
@@ -8000,7 +8000,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="NO"/>
+<pinref part="LOOP_2" gate="G$1" pin="NO"/>
 <wire x1="10.16" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="48.26" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="43.18" x2="17.78" y2="-71.12" width="0.1524" layer="91"/>
@@ -8014,7 +8014,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="S5" gate="G$1" pin="NO"/>
+<pinref part="PREHEAR_4" gate="G$1" pin="NO"/>
 <wire x1="-20.32" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="7.62" x2="-17.78" y2="0" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="0" x2="-17.78" y2="-96.52" width="0.1524" layer="91"/>
@@ -8033,7 +8033,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="251.46" y1="-5.08" x2="251.46" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="-93.98" x2="-15.24" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-93.98" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="S7" gate="G$1" pin="NO"/>
+<pinref part="PREHEAR_3" gate="G$1" pin="NO"/>
 <wire x1="-15.24" y1="22.86" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="27.94" x2="-20.32" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -8042,7 +8042,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="NO"/>
+<pinref part="LOOP_1" gate="G$1" pin="NO"/>
 <wire x1="10.16" y1="68.58" x2="20.32" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="68.58" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="63.5" x2="20.32" y2="-68.58" width="0.1524" layer="91"/>
@@ -8056,7 +8056,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="S9" gate="G$1" pin="NO"/>
+<pinref part="PREHEAR_2" gate="G$1" pin="NO"/>
 <wire x1="-20.32" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="48.26" x2="-12.7" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="43.18" x2="-12.7" y2="-91.44" width="0.1524" layer="91"/>
@@ -8070,7 +8070,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="S11" gate="G$1" pin="NO"/>
+<pinref part="PREHEAR_1" gate="G$1" pin="NO"/>
 <wire x1="-20.32" y1="68.58" x2="-10.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="68.58" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="63.5" x2="-10.16" y2="-88.9" width="0.1524" layer="91"/>
@@ -8084,7 +8084,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="S12" gate="G$1" pin="NO"/>
+<pinref part="LOAD_1" gate="G$1" pin="NO"/>
 <wire x1="-53.34" y1="68.58" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="68.58" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="63.5" x2="-38.1" y2="-106.68" width="0.1524" layer="91"/>
@@ -8103,7 +8103,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="259.08" y1="7.62" x2="259.08" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="-109.22" x2="-40.64" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-109.22" x2="-40.64" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="S10" gate="G$1" pin="NO"/>
+<pinref part="LOAD_2" gate="G$1" pin="NO"/>
 <wire x1="-40.64" y1="43.18" x2="-40.64" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="48.26" x2="-53.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
@@ -8112,7 +8112,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="S8" gate="G$1" pin="NO"/>
+<pinref part="LOAD_3" gate="G$1" pin="NO"/>
 <wire x1="-53.34" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="27.94" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="22.86" x2="-43.18" y2="-111.76" width="0.1524" layer="91"/>
@@ -8130,7 +8130,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="233.68" y1="15.24" x2="264.16" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="15.24" x2="264.16" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-114.3" x2="-45.72" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="S6" gate="G$1" pin="NO"/>
+<pinref part="LOAD_4" gate="G$1" pin="NO"/>
 <wire x1="-45.72" y1="-114.3" x2="-45.72" y2="0" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="0" x2="-45.72" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
@@ -8140,7 +8140,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="S14" gate="G$1" pin="NO"/>
+<pinref part="LISTEN" gate="G$1" pin="NO"/>
 <wire x1="152.4" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="86.36" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="104.14" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
@@ -8159,7 +8159,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="251.46" y1="20.32" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="104.14" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="S13" gate="G$1" pin="NO"/>
+<pinref part="START/STOP" gate="G$1" pin="NO"/>
 <wire x1="205.74" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <junction x="205.74" y="86.36"/>
@@ -8167,111 +8167,111 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="S12" gate="G$1" pin="1A"/>
+<pinref part="LOAD_1" gate="G$1" pin="1A"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S10" gate="G$1" pin="1A"/>
+<pinref part="LOAD_2" gate="G$1" pin="1A"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S8" gate="G$1" pin="1A"/>
+<pinref part="LOAD_3" gate="G$1" pin="1A"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S6" gate="G$1" pin="1A"/>
+<pinref part="LOAD_4" gate="G$1" pin="1A"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S11" gate="G$1" pin="1A"/>
+<pinref part="PREHEAR_1" gate="G$1" pin="1A"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S9" gate="G$1" pin="1A"/>
+<pinref part="PREHEAR_2" gate="G$1" pin="1A"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S7" gate="G$1" pin="1A"/>
+<pinref part="PREHEAR_3" gate="G$1" pin="1A"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="1A"/>
+<pinref part="PREHEAR_4" gate="G$1" pin="1A"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S4" gate="G$1" pin="1A"/>
+<pinref part="LOOP_4" gate="G$1" pin="1A"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S3" gate="G$1" pin="1A"/>
+<pinref part="LOOP_3" gate="G$1" pin="1A"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S2" gate="G$1" pin="1A"/>
+<pinref part="LOOP_2" gate="G$1" pin="1A"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1A"/>
+<pinref part="LOOP_1" gate="G$1" pin="1A"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1A"/>
+<pinref part="TEMPO_4" gate="G$1" pin="1A"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1A"/>
+<pinref part="TEMPO_3" gate="G$1" pin="1A"/>
 <pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1A"/>
+<pinref part="TEMPO_2" gate="G$1" pin="1A"/>
 <pinref part="P+15" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1A"/>
+<pinref part="TEMPO_1" gate="G$1" pin="1A"/>
 <pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1A"/>
+<pinref part="IN-POINT_1" gate="G$1" pin="1A"/>
 <pinref part="P+17" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1A"/>
+<pinref part="IN-POINT_2" gate="G$1" pin="1A"/>
 <pinref part="P+18" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1A"/>
+<pinref part="IN-POINT_3" gate="G$1" pin="1A"/>
 <pinref part="P+19" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1A"/>
+<pinref part="IN-POINT_4" gate="G$1" pin="1A"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1A"/>
+<pinref part="OUT-POINT_4" gate="G$1" pin="1A"/>
 <pinref part="P+21" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1A"/>
+<pinref part="OUT-POINT_3" gate="G$1" pin="1A"/>
 <pinref part="P+22" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1A"/>
+<pinref part="OUT-POINT_2" gate="G$1" pin="1A"/>
 <pinref part="P+23" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1A"/>
+<pinref part="OUT-POINT_1" gate="G$1" pin="1A"/>
 <pinref part="P+24" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S14" gate="G$1" pin="1A"/>
+<pinref part="LISTEN" gate="G$1" pin="1A"/>
 <pinref part="P+25" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="1A"/>
+<pinref part="TEMPO_SEQUENCE" gate="G$1" pin="1A"/>
 <pinref part="P+26" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="S13" gate="G$1" pin="1A"/>
+<pinref part="START/STOP" gate="G$1" pin="1A"/>
 <pinref part="P+27" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -8329,55 +8329,55 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1E"/>
+<pinref part="TEMPO_2" gate="G$1" pin="1E"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1E"/>
+<pinref part="TEMPO_1" gate="G$1" pin="1E"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1E"/>
+<pinref part="TEMPO_3" gate="G$1" pin="1E"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1E"/>
+<pinref part="TEMPO_4" gate="G$1" pin="1E"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1E"/>
+<pinref part="IN-POINT_4" gate="G$1" pin="1E"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R12" gate="G$1" pin="1E"/>
+<pinref part="OUT-POINT_4" gate="G$1" pin="1E"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="1E"/>
+<pinref part="OUT-POINT_3" gate="G$1" pin="1E"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1E"/>
+<pinref part="IN-POINT_3" gate="G$1" pin="1E"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1E"/>
+<pinref part="IN-POINT_2" gate="G$1" pin="1E"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1E"/>
+<pinref part="OUT-POINT_2" gate="G$1" pin="1E"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1E"/>
+<pinref part="OUT-POINT_1" gate="G$1" pin="1E"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1E"/>
+<pinref part="IN-POINT_1" gate="G$1" pin="1E"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="1E"/>
+<pinref part="TEMPO_SEQUENCE" gate="G$1" pin="1E"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
